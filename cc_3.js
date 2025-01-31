@@ -4,3 +4,10 @@ prices.push(600); // Adding my new price
 prices.shift(); // Removing the first price from the array
 console.log('Updated Price List:', prices); // Print Statement
 
+// Task 2: Modifying Customer Orders
+let orders = [5, 10, 15, 20, 25]; // Array with 5 order quantities
+orders[2] += 5; // Increasing the 3rd order quantity by 5
+let totalorders = orders.reduce((sum, quantity) => sum + quantity, 0); // Calculating total orders
+console.log('Updated Orders:', orders); // Print statement 
+console.log('Total Order Count:', totalorders); // Print Statement
+
