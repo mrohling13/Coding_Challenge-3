@@ -11,3 +11,14 @@ let totalorders = orders.reduce((sum, quantity) => sum + quantity, 0); // Calcul
 console.log('Updated Orders:', orders); // Print statement 
 console.log('Total Order Count:', totalorders); // Print Statement
 
+// Task 3: Employee Performance Tracking
+let employee = {
+    name: 'Sasuke Uchiha',
+    role: 'Developer',
+    performanceScore: 93,
+    isActive: true,
+};
+employee.performanceScore = 99; // Updating performance score
+employee.promotionEligible = employee.performanceScore > 80; // Adding promotion eligible property
+console.log('Updated Employee Object:', employee); 
+
