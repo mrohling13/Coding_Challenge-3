@@ -22,3 +22,16 @@ employee.performanceScore = 99; // Updating performance score
 employee.promotionEligible = employee.performanceScore > 80; // Adding promotion eligible property
 console.log('Updated Employee Object:', employee); 
 
+// Task 4: Customer Feedback Records
+let feedback = [
+    { customerName: 'Joe', feedbackText: 'Great service was provided!', rating: 5}, // Inputting Customer Lore
+    { customerName: 'Mike', feedbackText: 'Impeccable service!! Will come back!', rating: 5},
+    { customerName: 'Kendoge', feedbackText: 'Wouldnt recommend :(', rating: 2},
+];
+feedback.push({
+    customerName: 'Future',
+    feedbackText: 'Best service in the city!', // Adding a new customer
+    rating: 5,
+});
+console.log('Feedback List:', feedback); // Print Statement
+
