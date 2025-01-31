@@ -35,3 +35,14 @@ feedback.push({
 });
 console.log('Feedback List:', feedback); // Print Statement
 
+// Task 5: Inventory Management System
+let inventory = {
+    itemName: 'Rick Owens',
+    stockCount: 100,
+    price: 990,
+    calculateTotalValue: function () {
+        return this.stockCount * this.price;
+    },
+};
+console.log('Inventory Details:', inventory);
+console.log('Total Inventory Value:', inventory.calculateTotalValue());
